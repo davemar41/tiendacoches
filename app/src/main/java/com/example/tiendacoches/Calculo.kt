@@ -30,7 +30,7 @@ class Calculo : AppCompatActivity() {
 
             val mitotal=total(precio.toString(),total1).toString()
             val micuota=descuento(mitotal).toString()
-            binding.textView3.setText(mitotal.toString()+" "+ "iva incluido y aplicado el descuento del 10%" +'\n'+" mi cuota finaciada en tres meses es " + micuota)
+            binding.textView3.setText(mitotal.toString()+" "+ "euros iva incluido y aplicado el descuento del 10%" +'\n'+" mi cuota financiada en tres meses es :" +'\n'+ '\n'+ micuota +" euros")
 
         }
 
